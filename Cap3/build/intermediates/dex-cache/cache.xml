@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\joao.paulo.d.ribeiro\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\AndroidStudioProjects\Cap3\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-72327701a731c9db0081947089c08db4f41440a1.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\Cap3\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="C:\AndroidStudioProjects\Cap3\app\build\intermediates\pre-dexed\debug\classes-d7135e4d7c8f76b883588d7fb04e542189ef89e3.jar" />
+    </item>
+
+</items>

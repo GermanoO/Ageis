@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.joaopaulo.cap3.CadastroActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tLoginCadastro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"/>
+
+        <EditText
+            android:id="@+id/edtLoginCadastro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvSenhaCadastro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/edtSenhaCadastro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/tvSenhaCadastro2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Repita a Senha"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/edtSenhaCadastro2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/tEmailCadastro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/edtEmailCadastro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/btProximo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/ic_forward_white_24dp"/>
+
+</RelativeLayout>
