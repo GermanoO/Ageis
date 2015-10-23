@@ -57,9 +57,9 @@ public final class R {
 		public static final int white = 0x7f0b0069;
 	}
 	public static final class dimen {
-		public static final int card_content_padding_rect_top = 0x7f08004d;
-		public static final int close_button_diameter = 0x7f080051;
-		public static final int dismiss_padding = 0x7f080068;
+		public static final int card_content_padding_rect_top = 0x7f08004f;
+		public static final int close_button_diameter = 0x7f080053;
+		public static final int dismiss_padding = 0x7f08006a;
 	}
 	public static final class drawable {
 		public static final int card_background = 0x7f020045;
@@ -144,8 +144,8 @@ public final class R {
 		public static final int go_to_phone_00223 = 0x7f0200b5;
 		public static final int go_to_phone_00224 = 0x7f0200b6;
 		public static final int go_to_phone_animation = 0x7f0200b7;
-		public static final int ic_full_cancel = 0x7f0200bd;
-		public static final int ic_full_sad = 0x7f0200be;
+		public static final int ic_full_cancel = 0x7f0200be;
+		public static final int ic_full_sad = 0x7f0200bf;
 	}
 	public static final class id {
 		public static final int action_error = 0x7f0c0083;
@@ -162,14 +162,14 @@ public final class R {
 		public static final int left = 0x7f0c001c;
 		public static final int message = 0x7f0c0087;
 		public static final int right = 0x7f0c001d;
-		public static final int text = 0x7f0c00aa;
+		public static final int text = 0x7f0c00ab;
 		public static final int title = 0x7f0c0046;
 		public static final int top = 0x7f0c001e;
 	}
 	public static final class layout {
 		public static final int confirmation_activity_layout = 0x7f04001e;
 		public static final int dismiss_overlay = 0x7f04002b;
-		public static final int watch_card_content = 0x7f04003d;
+		public static final int watch_card_content = 0x7f04003e;
 	}
 	public static final class style {
 		public static final int CardText = 0x7f090030;

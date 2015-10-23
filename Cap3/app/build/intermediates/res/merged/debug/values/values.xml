@@ -19,6 +19,11 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <bool name="fitsSystemWindows">true</bool>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -172,9 +177,9 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -360,6 +365,9 @@
     <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <dimen name="navigation_drawer_header_margin">16dp</dimen>
     <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/br.com.livroandroid/android-utils/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="navigation_drawer_width">260dp</dimen>
@@ -368,6 +376,9 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <dimen name="status_bar_height">0dp</dimen>
     <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/br.com.livroandroid/android-utils/1.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="userBackground_layout_height">164dp</dimen>
@@ -520,6 +531,7 @@ available. Please contact the developer for assistance.</string>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">
@@ -1492,6 +1504,11 @@ available. Please contact the developer for assistance.</string>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="NavigationViewTheme" parent="AppTheme">
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Body2</item>
+    </style>
     <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
@@ -1760,6 +1777,14 @@ available. Please contact the developer for assistance.</string>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+    <!-- From: file:/C:/Git%20repositorio/ageis_perguntados/Ageis/Cap3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">
